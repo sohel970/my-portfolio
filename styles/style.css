@@ -60,6 +60,9 @@ height: 835px;
     background-position: bottom right, top left;
     b
 }
+i{
+    margin-right: 10px;
+}
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
@@ -91,29 +94,30 @@ margin-top: 5px;
 width: 24px;
 height: 24px;
 }
-.footer{
+footer{
 display: flex;
-justify-content: space-around;
-align-items: center;
-height: 780px;
-background-color: #FFF8F3;
+padding:130px 200px ;
+margin-top: 100px;
+background: #FFF8F3;
+gap: 100Px;
 }
-.left-footer{
-    width: 562px;
-    align-items: center;
+.section-tittle{
+    margin-bottom: 20px;
 }
-.right-footer{
-    width: 50%;
-    align-items: center;
+.footer-column{
+    /* margin-bottom: 20px; */
+    width: 50%;  
 }
-input{
-    width: 461px;
-height: 64px;
-border-radius: 5px;
-background: #FFF;
-border: none;
+.footer-icon {
+    padding: 5px;
 }
-.input-message{
-    width: 461px;
-    height: 180px;
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    background: white;
+    border-radius: 5px;
+    width: 100%;
 }
