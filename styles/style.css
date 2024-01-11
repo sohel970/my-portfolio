@@ -71,8 +71,8 @@ i{
   
 }
 .profile-pic{
-    width: 584px;
-    height: 670px;
+    width: 684px;
+    height: 745px;
 }
 .banner-gratting{
     font-size: 45px;
@@ -105,7 +105,7 @@ gap: 100Px;
     margin-bottom: 20px;
 }
 .footer-column{
-    /* margin-bottom: 20px; */
+   
     width: 50%;  
 }
 .footer-icon {
@@ -120,4 +120,65 @@ gap: 100Px;
     background: white;
     border-radius: 5px;
     width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+        padding: 20px;
+        height: 100%;
+    }
+    .profile-pic{
+        width: 300px;
+        height: 300px;
+    }
+    nav ul li, .btn-primary{
+        margin: 10px;
+    }
+  .banner{
+        padding: 20px;
+    }
+    .banner, nav ul ,nav{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column {
+        width: 70%;
+    }
+    .social-link{
+      text-align: center;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .banner, nav ul ,nav{
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+        padding: 20px;
+        height: 100%;
+    }
+    .profile-pic{
+        width: 400px;
+        height: 400px;
+    }
+    nav ul li, .btn-primary{
+        margin: 10px;
+    }
+     footer{
+        padding: 20px;
+     }
+     .footer-column {
+        width: 50%;
+    }
+    .contact input[type="text"],.contact input[type="email"], textarea{
+        width: 70%;
+    }
+    .social-link{
+        text-align: center;
+      }
+
 }
